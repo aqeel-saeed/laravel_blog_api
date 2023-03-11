@@ -12,8 +12,9 @@ Once you have these prerequisites installed, follow these steps to get the app u
 4. Create a new MySQL database for the app.
 5. Rename the .env.example file to .env, and update the database connection details to match your local environment.
 6. Run the php artisan migrate command to create the required database tables.
-7. Run the php artisan serve command to start the app on a local web server.
-8. You should now be able to access the app in your web browser at http://localhost:8000.
+7. Run the php artisan passport:install command to install the passport key.
+8. Run the php artisan serve command to start the app on a local web server.
+9. You should now be able to access the app in your web browser at http://localhost:8000.
 
 ## Usage
 Once the app is up and running, you can use it to create blog posts, assign them to categories and tags, and add comments to existing posts. Here are some of the key features of the app:
